@@ -1,0 +1,6 @@
+s = str(input())
+p = "g"
+h = "c"
+n = len(s)
+a=s.upper().count("c".upper())+s.upper().count("g".upper())
+print (a/n*100)
